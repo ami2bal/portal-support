@@ -3,10 +3,10 @@ var adminSupportModule = angular.module('adminSupportModule', []);
 adminSupportModule.controller('adminSupportCtrl', function ($scope) {
 
     $scope.populations = [
-        {'id': 'particulier', name: 'Un particulier'},
-        {'id': 'commune', 'name': 'Une commune'},
-        {'id': 'partenaire', name: 'Un partenaire'},
-        {'id': 'entreprise', 'name': 'Une entreprise'}
+        {'id': 1, name: 'Un particulier'},
+        {'id': 2, 'name': 'Une commune'},
+        {'id': 3, name: 'Un partenaire'},
+        {'id': 4, 'name': 'Une entreprise'}
     ];
 
     $scope.roles = [

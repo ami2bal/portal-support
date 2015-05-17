@@ -1,9 +1,15 @@
 <div ng-app="adminSupportModule" ng-controller="adminSupportCtrl">
     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+        <div class="pull-right">
+            <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#adminPopulationModal">
+                Ajouter
+                une population
+            </button>
+        </div>
         <h3>Population</h3>
         <ul class="list-group">
             <a ng-repeat="population in populations"
-               href="<%=request.getContextPath()%>/admin-support?idSupport={{population.id}}" class="list-group-item">
+               href="#/support/{{population.id}}" class="list-group-item">
                 {{population.name}}
             </a>
         </ul>
