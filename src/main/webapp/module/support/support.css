@@ -1,0 +1,21 @@
+#support a{
+    color : #C60;
+}
+
+#support h1:first-child{
+    border-bottom: 4px solid #cce439;
+}
+
+#support li{
+    color: #3e3e3d;
+}
+
+#support label{
+    color: #636363;
+}
+
+#support fieldset legend{
+    background-color: #b2cc2a;
+    color: #000000;
+    padding: 4px 0 4px 8px;
+}

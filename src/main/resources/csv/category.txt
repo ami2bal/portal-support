@@ -1,0 +1,87 @@
+A. Généralités
+a. A quoi sert le portail des prestations en ligne ?
+
+B. Demander un compte professionnel IUP
+a. Je partage mon compte avec une collègue qui travaille à temps partiel et un apprenti qui en a rarement besoin. Dois-je vraiment leur faire ouvrir leurs propres comptes ?
+b. Je suis un nouvel employé de la commune, dois-je effectuer une demande d’un compte professionnel IUP ?
+c. J’ai fait une demande de compte mais je n’ai pas reçu mon identifiant professionnel ou mon mot de passe ?
+d. Quelle est la différence entre un compte professionnel IUP et un compte IAM ?
+
+C. Migration d’un compte IAM
+a. Avec l’ouverture du portail, doit-on se recréer un compte IAM?
+b. Est-ce qu'il faudra redemander les accès à toutes les applications à l'ouverture du portail?
+
+D. Se connecter avec le code SMS
+a. Comment se connecter au portail avec le code SMS
+b. J’ai une carte Matrics, mais j’aimerai accéder à mon compte via authentification SMS. Comment procéder pour faire le changement ?
+
+E. Se connecter avec la carte Matrics de codes de sécurité
+a. Comment se connecter au portail avec la carte Matrics de codes de sécurité ?
+
+F. Demander le rattachement à une commune
+a. Peut-on être rattaché à plusieurs communes ?
+
+G. Gérer les paramètres d’authentification
+a. Peut-on modifier à tout moment les paramètres d’authentification ?
+b. Pour quelle raison doit-on changer de mot de passe à l’ouverture du portail?
+c. Comment faire une suppression de compte?
+
+H. Demander l’accès à une prestation
+a. Est-ce que je peux effectuer une demande de prestation en même que la demande de compte ?
+b. Est-ce qu’il y a une limitation du nombre de demandes pour certaines prestations ?
+c. Peut-on faire une demande groupée pour plusieurs prestations?
+d. Par quel processus doit-on passer pour faire une demande de nouvelle prestation?
+e. Sur quelle base peut-on valider ou refuser un accès?
+
+I. Valider une demande d’identité
+a. Qui peut, au sein de la commune, valider une demande d’identité?
+
+J. Valider une demande de rattachement à la commune
+a. Qui peut, au sein de la commune, valider une demande de rattachement ?
+
+K. Valider une demande d’accès à une prestation
+a. Que faire si l'on se voit refuser un accès à une prestation?
+b. Qui peut, au sein de la commune, valider une demande d’accès à une prestation ?
+
+L. Désigner ou révoquer un Tiers de confiance suppléant
+a. Est-ce que le Tiers de confiance peut déléguer les rôles qui lui sont confiés pour notamment la suppression/identification/validation des utilisateurs?
+
+M. Désigner ou révoquer un responsable de prestation
+a. Est-ce que l’on peut avoir plusieurs responsables pour la même prestation ?
+
+N. Désigner ou révoquer un référent
+a. Doit-on faire une délégation des rôles lors de vacances, congé maternité ou maladie?
+
+O. Accéder aux prestations
+a. Est-ce que Votelec fait partie des applications du portail?
+b. J’ai effectué une demande d’accès à une prestation, mais je n’ai pas encore les droits d’accès cette prestation ?
+
+P. Créer un compte Particuliers
+a. Créer un compte : ça sert à quoi ?
+b. Qui peut créer un compte ?
+c. Quelles informations dois-je transmettre lors de la création de mon compte ?
+d. Comment sont utilisées les informations que je vous transmets lors de la création du compte ?
+e. Que dois-je faire si mon adresse email a déjà été utilisée par une tierce personne pour créer un compte ?
+f. Que dois-je faire si je désire supprimer mon compte ?
+
+Q. Navigateurs supportés
+a. Quels sont les navigateurs supportés par le portail ?
+
+R. Se connecter au portail des Particuliers
+a. Quelles sont les informations que je dois utiliser pour me connecter ?
+b. Que dois-je faire en cas de perte de mon mot de passe ?
+c. Puis-je modifier mon mot de passe ?
+
+S. Accès à une prestation du portail des Particuliers
+a. Est-ce que l’accès aux prestations est libre dès le moment où je suis connecté à mon espace personnel ?
+b. Pour quelle raison le compte que j'ai créé sur le portail des particuliers ne me permet-il pas d’accéder aux prestations protégées ?
+c. Avez-vous prévu la possibilité d’utiliser la SuisseID comme moyen d’authentification ?
+
+T. Accès à mes données personnelles
+a. Puis-je modifier les données personnelles que j’ai transmises lors de mon inscription ?
+b. Comment mes données personnelles sont-elles conservées et utilisées ?
+
+U. Formulaires en ligne
+a. Que signifie « formulaires en ligne » ?
+b. Pourquoi certains formulaires sont encore en format PDF ?
+c. Une fois connecté, puis-je accéder à tous les formulaires en ligne ?

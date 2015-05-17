@@ -1,0 +1,7 @@
+#admin a{
+    color : #C60;
+}
+
+#admin h1:first-child{
+    border-bottom: 4px solid #cce439;
+}
