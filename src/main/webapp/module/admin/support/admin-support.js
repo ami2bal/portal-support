@@ -1,6 +1,6 @@
-var adminSupportApp = angular.module('adminSupportApp', []);
+var adminSupportModule = angular.module('adminSupportModule', []);
 
-adminSupportApp.controller('adminSupportCtrl', function ($scope) {
+adminSupportModule.controller('adminSupportCtrl', function ($scope) {
 
     $scope.populations = [
         {'id': 'particulier', name: 'Un particulier'},
@@ -30,4 +30,4 @@ adminSupportApp.controller('adminSupportCtrl', function ($scope) {
     ];
 });
 
-var injector = angular.injector(['ng', 'adminSupportApp']);
+var injector = angular.injector(['ng', 'adminSupportModule']);

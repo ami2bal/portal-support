@@ -1,0 +1,56 @@
+<div ng-app="adminFaqModule">
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" ng-controller="adminFaqCtrl">
+        <div class="pull-right">
+            <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#adminCategoryModal">
+                Ajouter
+                un thème
+            </button>
+        </div>
+        <h3>Thème</h3>
+        <ul class="list-group">
+            <a ng-repeat="category in categories"
+               href="#/faq/{{category.id}}" class="list-group-item">
+                <span class="badge">{{category.suggestionsCount}}</span>
+                {{category.name}}
+            </a>
+        </ul>
+    </div>
+
+    <div class="col-xs-6 col-sm-8 col-md-8 col-lg-10" ng-controller="adminSuggestionsCtrl">
+        <div class="pull-right">
+            <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#adminSuggestionModal">
+                Ajouter
+                une suggestion
+            </button>
+        </div>
+        <div ng-show="idCategory != null">
+            <h3>Suggestions</h3>
+            <table class="table">
+                <tr>
+                    <th>id</th>
+                    <th>Question</th>
+                    <th>Réponse</th>
+                    <th>Actions</th>
+                </tr>
+                <tr ng-repeat="suggestion in suggestions">
+                    <td>{{suggestion.id}}</td>
+                    <td>{{suggestion.question}}</td>
+                    <td>{{suggestion.reponse}}</td>
+                    <td>
+                        <button type="button" class="btn btn-info">Editer</button>
+                        <button type="button" class="btn btn-warning">Supprimer</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Edit Thème -->
+<ng-include src="'module/admin/faq/category/editCategory.html'"></ng-include>
+
+<!-- Modal Edit Suggestion -->
+<ng-include src="'module/admin/faq/suggestion/editSuggestion.html'"></ng-include>
+
+<script type="text/javascript" src="module/admin/faq/admin-faq.js"
+        charset="utf-8"></script>

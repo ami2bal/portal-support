@@ -14,6 +14,8 @@ public class Category {
     @Column(nullable = false)
     private String name;
 
+    private int suggestionsCount;
+
     @OneToMany
     private List<Suggestion> suggestionList = new ArrayList<>();
 
@@ -46,6 +48,10 @@ public class Category {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getSuggestionsCount() {
+        return suggestionList.size();
     }
 
     public List<Suggestion> getSuggestionList() {

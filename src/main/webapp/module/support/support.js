@@ -1,6 +1,6 @@
 var supportApp = angular.module('supportApp', []);
 
-supportApp.controller('SupportCtrl', function ($scope) {
+supportApp.controller('supportCtrl', function ($scope) {
     $scope.civilites = [
         {'value': 'mr', name: 'Monsieur'},
         {'value': 'mme', 'name': 'Madame'}
@@ -33,5 +33,3 @@ supportApp.controller('SupportCtrl', function ($scope) {
         {'value': 'registrefiscal', 'name': 'Registre fiscal'}
     ];
 });
-
-var injector = angular.injector(['ng', 'supportApp']);

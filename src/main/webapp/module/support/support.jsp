@@ -29,7 +29,7 @@
     <script type="text/javascript" src="<%=request.getContextPath()%>/module/support//support.js"
             charset="utf-8"></script>
 </head>
-<body ng-controller="SupportCtrl">
+<body ng-controller="supportCtrl">
 
 <div id="support" class="container-fluid">
     <h1>Contact</h1>
