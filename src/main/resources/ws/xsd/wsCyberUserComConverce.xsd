@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by sp (zzzz) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+    <xs:element name="userInfos">
+        <xs:annotation>
+            <xs:documentation>infos converce about uip</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId"/>
+                <xs:sequence maxOccurs="unbounded">
+                    <xs:element name="municipality">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="federalNr" type="xs:integer"/>
+                                <xs:element name="name"/>
+                                <xs:sequence maxOccurs="unbounded">
+                                    <xs:element name="portalRoleGroup">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="roleGroupId"/>
+                                                <xs:element name="name"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:sequence maxOccurs="unbounded">
+                                    <xs:element name="appRoleGroup">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="appGroupId"/>
+                                                <xs:element name="name"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

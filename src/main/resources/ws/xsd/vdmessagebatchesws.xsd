@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+    <xs:complexType name="vdMessageBatchWs">
+        <xs:sequence>
+            <xs:element name="vdMessageBatchId" type="xs:string" />
+            <xs:element name="senderFullName" type="xs:string" />
+
+            <xs:element name="state" type="xs:string" />
+
+            <xs:element name="creationDate" type="xs:dateTime" />
+            <xs:element name="startDate" type="xs:dateTime" />
+            <xs:element name="endDate" type="xs:dateTime" />
+            <xs:element name="instanceName" type="xs:string" />
+
+            <xs:element name="toSend" type="xs:int" />
+            <xs:element name="sent" type="xs:int" />
+            <xs:element name="errors" type="xs:int" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="vdMessageBatchesWs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vdMessageBatchWs" maxOccurs="unbounded" type="vdMessageBatchWs"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

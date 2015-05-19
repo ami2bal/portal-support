@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by sp (zzzz) -->
+<!--Converce internet records history-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="recordsHistory">
+		<xs:annotation>
+			<xs:documentation>Converce internet records history</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="historyInfo" type="xs:string"/>
+				<xs:element name="historyTitle"/>
+				<xs:element name="historyOwner" type="xs:string"/>
+				<xs:element name="record" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="recordId" type="xs:string"/>
+							<xs:element name="formId" type="xs:string"/>
+							<xs:element name="recordEdit" type="xs:boolean"/>
+							<xs:element name="recordSummaryUri" type="xs:string"/>
+							<xs:element name="recordUri" type="xs:string"/>
+							<xs:element name="recordCopyUri" type="xs:string"/>
+							<xs:element name="deleteUri" type="xs:string"/>
+							<xs:element name="recordDescription" type="xs:string"/>
+							<xs:element name="recordState" type="xs:string"/>
+							<xs:element name="recordProcessName" type="xs:string"/>
+							<xs:element name="recordProcessCategory" type="xs:string"/>
+							<xs:element name="recordCreationDt" type="xs:dateTime"/>
+							<xs:element name="recordChangeDt" type="xs:dateTime" minOccurs="0"/>
+							<xs:element name="recordResult" type="xs:string" minOccurs="0"/>
+							<xs:element name="recordMessage" type="xs:string" minOccurs="0"/>
+							<xs:element name="recordProgressionLevel" type="xs:long" minOccurs="0"/>
+							<xs:sequence minOccurs="0">
+								<xs:element name="recordDoc" minOccurs="0" maxOccurs="unbounded">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="recordDocUri" type="xs:string" minOccurs="0"/>
+											<xs:element name="recordDocName" type="xs:string" minOccurs="0"/>
+											<xs:element name="recordDocDt" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:sequence minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="processState" minOccurs="0">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="stateCode"/>
+											<xs:element name="stateLib"/>
+											<xs:element name="stateIndex"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
